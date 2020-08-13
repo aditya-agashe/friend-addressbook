@@ -47,14 +47,17 @@ This solution has been implemented using spring boot.
 
 
 ### Build
+```
 cd <checked out project path>
 mvn clean package
 The jar will be in folder <checked out project path>\target
+```
 
 
 ### Run
+```
 cd <checked out project path>
 mvn spring-boot:run
 Pass the absolute path to CSV phone book files when prompted
 Please refer to sample file phonebook1.csv under src > test > resources
-
+```
